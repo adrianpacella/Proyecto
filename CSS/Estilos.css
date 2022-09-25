@@ -1,0 +1,95 @@
+body{
+  background-color: beige;
+}
+
+.wrapper{
+display: grid;
+grid-template-columns: 80% 10% 10%;
+align-items: center;
+}  
+
+.paralogo:hover{
+transform: scale(1.05);
+}
+
+Header{
+  background-image: url("Mariob.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: auto;
+  height:200px;
+  }
+    
+    
+h1{font-weight: bold; text-align: center;
+  }
+
+
+Nav{background-color: azure;
+  text-align: center;
+  border-style: solid;
+  Border-color: green ;
+  font-size: 20px;
+  }
+
+.nav-item{
+  padding-right: 80px;
+}
+
+
+Main{width: 80%;
+  margin-top: 1%;
+  float:left;
+  font-weight:bold;
+  border-style: solid;
+  Border-color: rgb(0, 255, 98);
+ 
+}
+
+
+aside {    
+  text-align: center;
+  width: 20%;
+  height: 500px;
+  float: left;
+  font-style: italic;
+  background-color: rgb(188, 186, 186);
+  margin-top: 1%;
+  }
+  
+
+  .seccion1
+  {
+    
+    position: relative;
+    display: flex;
+    justify-content:center;
+    background-color: beige;
+      
+  }
+  
+  
+  .col-sm-3
+  {
+      background-color: beige;
+      display: flex;
+      justify-content: center;
+      
+  } 
+
+  .main
+  {Border:solid;color:black;
+
+
+  }
+
+  footer
+  {
+    Float:left;
+    margin-top:100px;
+    width:100%;
+    height:100px;
+    
+  }
+

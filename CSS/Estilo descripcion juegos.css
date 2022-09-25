@@ -1,0 +1,41 @@
+body { background-color: beige;
+      
+     
+
+}
+h1{font-weight: bold; text-align: center;}
+Header{
+    background-color: azure;
+    text-align: center;
+}
+
+Main{width: 400px;height: 300px;
+    text-align: center;
+    float:left;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+
+aside {
+    
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    float: left;
+    font-style: italic;
+    
+
+  }
+
+  footer
+  {
+    position: absolute;
+    float: left;
+    margin-top:600px;
+    width: 100%;
+    height: 40px;
+    
+  }
+  
